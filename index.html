@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED  Light sell Website by Easy Tutorials </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="hero">
+<nav>
+    <img src="images/menu.png"class="menu-img">
+    <img src="images/logo.png"class="logo">
+    <ul>
+        <li><a href="#">Latest Collections </a></li>
+        <li><a href="#">Modern</a></li>
+        <li><a href="#">Login & Sign Up </a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Help & Support</a></li>
+
+    </ul>
+
+    <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+</nav>
+
+<div class="lamp-container">
+    <img src="images/lamp.png" class="lamp">
+    <img src="images/light.png" class="light" id="light">
+</div>
+
+<div class="text-container">
+    <h1>Latest Arrivals and Collection <br></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quae qui nihil possimus corrupti accusantium voluptatibus, dicta asperiores, maiores omnis nisi quam optio.</p>
+    <a href="#">Check all collections</a>
+
+    <div class="control">
+        <p>from Starts </p>
+        <div class="line"><span></span></div>
+        <p>To ends here</p>
+    </div>
+</div>
+    </div>
+
+    javascript Code  and Script tag starts from here 👇👇➡️  -->
+    <script>
+    var btn =document.getElementById("btn");
+    var light =document.getElementById("light");
+
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+    }
+</script>
+    
+</body>
+</html>
